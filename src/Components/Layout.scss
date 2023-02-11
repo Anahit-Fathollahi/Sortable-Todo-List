@@ -1,0 +1,59 @@
+form {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 30px;
+  min-width: 300px;
+}
+.item-box {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #aaa;
+  width: 35%;
+  margin: auto;
+  justify-content: space-between;
+  height: 52px;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  min-width: 224px;
+  div {
+    width: 33%;
+  }
+  button {
+    width: 30px;
+  }
+  div:nth-child(1) {
+    text-align: initial;
+  }
+  div:nth-child(3) {
+    text-align: end;
+  }
+}
+
+.drag-btn {
+  cursor: move !important;
+}
+
+textarea {
+  margin-top: 20px;
+  width: 45%;
+  min-width: 260px;
+}
+.submit-btn {
+  height: 57px;
+  width: 27%;
+}
+.todoInput {
+  margin-right: 20px;
+  width: 80%;
+}
+.todoForm {
+  div:nth-child(1) {
+    width: 69%;
+  }
+}
